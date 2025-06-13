@@ -40,9 +40,12 @@ const Partners = () => (
       We are proud to collaborate with industry-leading organizations to deliver
       exceptional digital solutions and services.
     </p>
-    <div className="flex flex-wrap justify-center gap-10 items-center w-full max-w-4xl">
+    <div className="flex flex-wrap justify-center gap-10 items-center w-full max-w-4xl ">
       {partners.map((partner) => (
-        <div key={partner.name} className="flex flex-col items-center group">
+        <div
+          key={partner.name}
+          className="flex flex-col items-center group max-md:w-20 max-md:text-sm"
+        >
           {typeof partner.logo === "string" ? (
             // External image
             <img

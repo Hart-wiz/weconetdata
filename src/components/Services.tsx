@@ -13,7 +13,7 @@ const Services = () => {
         services to help your business grow, innovate, and succeed in the
         digital age.
       </p>
-      <div className="flex gap-9 flex-wrap justify-center z-10">
+      <div className="flex gap-9 flex-wrap justify-center z-10 max-md:gap-5">
         {cards.map((card) => (
           <OfferCard
             key={card.id}
