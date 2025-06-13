@@ -41,7 +41,7 @@ const Form = () => {
             }}
             buttonStyle={{
               border: "none",
-              background: "black",
+              background: "transparent",
             }}
             containerStyle={{ width: "100%" }}
             inputProps={{
