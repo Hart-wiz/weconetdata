@@ -2,40 +2,6 @@ import React from "react";
 import OfferCard from "./OfferCard";
 import { cards } from "../assets/assets.js";
 
-// // Example service cards data
-// export const cards = [
-//   {
-//     id: 1,
-//     title: "Custom Web Development",
-//     text: "We build scalable, high-performance web applications tailored to your business needs using the latest technologies.",
-//     image: "https://img.icons8.com/color/96/000000/source-code.png",
-//   },
-//   {
-//     id: 2,
-//     title: "Mobile App Solutions",
-//     text: "From iOS to Android, our team crafts seamless mobile experiences that engage users and drive results.",
-//     image: "https://img.icons8.com/color/96/000000/smartphone-tablet.png",
-//   },
-//   {
-//     id: 3,
-//     title: "UI/UX Design",
-//     text: "Our designers create intuitive, beautiful interfaces that delight users and enhance brand value.",
-//     image: "https://img.icons8.com/color/96/000000/design.png",
-//   },
-//   {
-//     id: 4,
-//     title: "Cloud Integration",
-//     text: "Leverage the power of the cloud for scalability, security, and efficiency in your digital operations.",
-//     image: "https://img.icons8.com/color/96/000000/cloud.png",
-//   },
-//   {
-//     id: 5,
-//     title: "Business Automation",
-//     text: "Automate repetitive tasks and streamline workflows to boost productivity and reduce costs.",
-//     image: "https://img.icons8.com/color/96/000000/automation.png",
-//   },
-// ];
-
 const Services = () => {
   return (
     <section className="flex flex-col gap-6 text-white/80 my-16 px-8 max-md:px-2 relative">
@@ -58,14 +24,8 @@ const Services = () => {
         ))}
       </div>
       {/* Optional: Add a decorative background or animation */}
-      {/* <div className="absolute inset-0 pointer-events-none z-0">
-        <iframe
-          src="https://my.spline.design/cubic-QW6HFYQqtmo1My1DNtOfWLoO/"
-          frameBorder="0"
-          className="w-full h-full opacity-20"
-          title="Decorative 3D"
-        ></iframe>
-      </div> */}
+      <div className="absolute bottom-10 right-80 w-90 h-90 bg-primary opacity-20 rounded-full blur-lg animate-pulse z-0 overflow-clip max-md:right-20 max-md:bottom-14"></div>
+      <div className="absolute top-[-30px] left-40 w-30 h-30 bg-primary opacity-20 rounded-full blur-lg animate-pulse z-0 overflow-clip"></div>
     </section>
   );
 };

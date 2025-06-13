@@ -17,16 +17,16 @@ export default function App() {
         <Testimonial />
         <Partners />
         <Form />
-        <div className="absolute inset-0 pointer-events-none z-0">
+        {/* <div className="absolute inset-0 pointer-events-none z-0">
           <iframe
             src="https://my.spline.design/cubic-QW6HFYQqtmo1My1DNtOfWLoO/"
             frameBorder="0"
             className="w-full h-full opacity-20"
             title="Decorative 3D"
           ></iframe>
-        </div>
+        </div> */}
       </div>
-      {/* <Footer /> */}
+      <Footer />
       testing the web
     </div>
   );

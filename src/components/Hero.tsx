@@ -6,13 +6,7 @@ const Hero = () => {
     <div className="relative pt-30 h-screen w-full flex justify-center items-center bg-gradient-to-br from-primary via-blue-300 to-black overflow-hidden">
       {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-60 z-10"></div>
-      {/* Decorative Spline or SVG background (optional) */}
-      {/* <iframe
-        src="https://my.spline.design/cubic-QW6HFYQqtmo1My1DNtOfWLoO/"
-        frameBorder="0"
-        className="w-full h-full absolute top-0 left-0 z-0 opacity-20"
-        title="3D Decorative"
-      ></iframe> */}
+
       <section className="flex flex-col items-center justify-center z-20 w-3/4 max-md:w-full text-center gap-8">
         <h1 className="font-extrabold text-3xl bg-white bg-clip-text text-transparent drop-shadow-lg z-50">
           WECONETDATA TECHNOLOGIES
@@ -44,8 +38,9 @@ const Hero = () => {
         </div>
       </section>
       {/* Animated tech shapes */}
-      <div className="absolute top-10 left-10 w-32 h-32 bg-blue-400 opacity-20 rounded-full blur-2xl animate-pulse z-0"></div>
-      <div className="absolute bottom-10 right-20 w-40 h-40 bg-primary opacity-20 rounded-full blur-2xl animate-pulse z-0"></div>
+      <div className="absolute top-10 left-10 w-40 h-32 bg-blue-400 opacity-20 rounded-full blur-2xl animate-pulse z-0 overflow-clip"></div>
+      <div className="absolute bottom-10 right-80 w-90 h-80 bg-primary opacity-20 rounded-full blur-lg animate-pulse z-0 overflow-clip"></div>
+      <div className="absolute top-10 left-30 w-30 h-30 bg-primary opacity-20 rounded-full blur-3xl animate-pulse z-0 overflow-clip"></div>
     </div>
   );
 };

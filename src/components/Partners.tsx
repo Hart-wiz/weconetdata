@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import spline from "../assets/spline.png";
 import truehost from "../assets/truehost.png";
@@ -33,7 +32,7 @@ const partners = [
 ];
 
 const Partners = () => (
-  <section className="w-full py-16 bg-white flex flex-col items-center">
+  <section className="relative w-full py-16 bg-white  flex flex-col items-center">
     <h2 className="text-3xl font-bold text-primary mb-8 text-center">
       Our Partners
     </h2>
@@ -65,6 +64,10 @@ const Partners = () => (
         </div>
       ))}
     </div>
+    {/* Optional: Add a decorative background or animation */}
+    <div className="absolute bottom-10 right-80 w-90 h-80 bg-primary opacity-20 rounded-full blur-lg animate-pulse z-0 overflow-clip"></div>
+    <div className="absolute top-[-400px] left-40 w-50 h-50 bg-primary opacity-20 rounded-full blur-lg animate-pulse z-0 overflow-clip"></div>
+    <div className="absolute top-[300px] left-40 w-30 h-30 bg-primary opacity-20 rounded-full blur-lg animate-pulse z-0 overflow-clip"></div>
   </section>
 );
 

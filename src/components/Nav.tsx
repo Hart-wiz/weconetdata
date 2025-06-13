@@ -1,4 +1,3 @@
-"use client";
 import React, { useState } from "react";
 import logo from "../assets/wlogo.png"; // Adjust the path as necessary
 
