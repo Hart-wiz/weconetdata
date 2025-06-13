@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const testimonials = [
   {
     name: "Jane Doe",
-    role: "CEO, Acme Corp",
+    role: "CEO, GWUS Corp",
     quote:
       "WeconetData Technologies transformed our business with their innovative solutions. Their team is professional, responsive, and truly cares about our success.",
     avatar: "https://randomuser.me/api/portraits/women/44.jpg",
@@ -18,7 +18,7 @@ const testimonials = [
   },
   {
     name: "Emily Chen",
-    role: "Product Manager, Startify",
+    role: "Product Manager, RealFabrications Inc.",
     quote:
       "Excellent communication and top-notch results. We will definitely work with WeconetData again.",
     avatar: "https://randomuser.me/api/portraits/women/68.jpg",
@@ -98,7 +98,7 @@ const Testimonial = () => {
       <div className="flex md:hidden justify-between w-full max-w-xl mt-4 px-4">
         <button
           onClick={prevSlide}
-          className="bg-primary/80 hover:bg-primary text-white rounded-full p-2 shadow transition-all"
+          className="bg-primary/80 hover:bg-primary text-white rounded-full p-2 shadow transition-all text-primary"
           aria-label="Previous testimonial"
         >
           <svg
@@ -113,7 +113,7 @@ const Testimonial = () => {
         </button>
         <button
           onClick={nextSlide}
-          className="bg-primary/80 hover:bg-primary text-white rounded-full p-2 shadow transition-all"
+          className="bg-primary/80 hover:bg-primary text-white rounded-full p-2 shadow transition-all text-primary"
           aria-label="Next testimonial"
         >
           <svg

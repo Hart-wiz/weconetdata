@@ -12,7 +12,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-dark text-gray-300 flex justify-center">
+    <footer id="footer" className="bg-dark text-gray-300 flex justify-center">
       <div className="max-w-7xl mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo + Tagline */}
@@ -96,7 +96,12 @@ export default function Footer() {
               <a href="#" className="hover:text-white">
                 <FaGithub />
               </a>
-              <a href="#" className="hover:text-white">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://wa.me/+16727631514?text=Hello%20WeconetData%20Technologies,%20I%20would%20like%20to%20inquire%20about%20your%20services."
+                className="hover:text-white"
+              >
                 <FaWhatsapp />
               </a>
             </div>

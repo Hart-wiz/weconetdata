@@ -4,7 +4,10 @@ import { cards } from "../assets/assets.js";
 
 const Services = () => {
   return (
-    <section className="flex flex-col gap-6 text-white/80 my-16 px-8 max-md:px-2 relative">
+    <section
+      id="services"
+      className="flex flex-col gap-6 text-white/80 my-16 px-8 max-md:px-2 relative"
+    >
       <h1 className="text-3xl text-center text-primary font-extrabold py-9 max-md:text-xl tracking-wide">
         Our Services
       </h1>
