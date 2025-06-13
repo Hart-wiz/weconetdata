@@ -41,8 +41,8 @@ const Hero = () => {
         </div>
       </section>
       {/* Animated tech shapes */}
-      <div className="absolute top-10 left-10 w-40 h-32 bg-red-600 opacity-20 rounded-full blur-2xl animate-pulse z-0 overflow-clip"></div>
-      <div className="absolute bottom-10 right-80 w-90 h-90 bg-red-600 opacity-20 rounded-full blur-lg animate-pulse z-0 overflow-clip"></div>
+      <div className="absolute top-40 left-10 w-40 h-32 bg-red-600 opacity-20 rounded-full blur-lg animate-bounce z-0 overflow-clip"></div>
+      <div className="absolute bottom-10 right-80 w-90 h-90 bg-red-600 opacity-20 rounded-full blur-lg animate-bounce z-0 overflow-clip"></div>
       <div className="absolute top-10 left-30 w-30 h-30 bg-red-600 opacity-20 rounded-full blur-3xl animate-pulse z-0 overflow-clip"></div>
     </div>
   );

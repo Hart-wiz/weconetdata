@@ -27,7 +27,7 @@ const Services = () => {
         ))}
       </div>
       {/* Optional: Add a decorative background or animation */}
-      <div className="absolute bottom-10 right-80 w-90 h-90 bg-primary opacity-20 rounded-full blur-lg animate-pulse z-0 overflow-clip max-md:right-20 max-md:bottom-14"></div>
+      <div className="absolute bottom-0 right-80 w-90 h-90 bg-primary opacity-20 rounded-full blur-lg animate-bounce z-0 overflow-clip max-md:right-20 max-md:bottom-14"></div>
       <div className="absolute top-[-30px] left-40 w-30 h-30 bg-primary opacity-20 rounded-full blur-lg animate-pulse z-0 overflow-clip"></div>
     </section>
   );
