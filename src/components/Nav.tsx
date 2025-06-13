@@ -13,14 +13,10 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="fixed z-50 w-full bg-white/80 backdrop-blur-md shadow-lg">
+      <nav className="fixed z-50 w-full bg-white/80 backdrop-blur-md shadow-lg  px-20 max-md:py-3 max-md:px-0">
         <div className="max-w-7xl mx-auto flex items-center justify-between px-8 py-3">
           <div className="flex items-center ">
-            <img
-              src={logo}
-              alt="logo"
-              className=" w-30 shadow-md max-md:w-20"
-            />
+            <img src={logo} alt="logo" className=" w-30  max-md:w-20" />
           </div>
           {/* Desktop Nav */}
           <ul className="hidden md:flex gap-8 items-center">
