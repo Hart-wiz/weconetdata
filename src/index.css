@@ -70,3 +70,15 @@ body {
   color: var(--foreground);
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
+
+.react-tel-input .flag-dropdown .country-list {
+  color: rgb(0, 0, 0) !important; /* changes the text color of dropdown items */
+}
+
+.react-tel-input .flag-dropdown .country-list .country {
+  color: rgb(0, 0, 0) !important; /* ensures each country name is red */
+}
+
+.react-tel-input .flag-dropdown .country-list .country:hover {
+  background-color: #f0f0f0;
+}
