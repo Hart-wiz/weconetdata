@@ -1,6 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaLinkedinIn,
+  FaGithub,
+  FaPhone,
+  FaWhatsapp,
+  FaEnvelope,
+} from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -88,9 +96,15 @@ export default function Footer() {
               <a href="#" className="hover:text-white">
                 <FaGithub />
               </a>
+              <a href="#" className="hover:text-white">
+                <FaWhatsapp />
+              </a>
             </div>
-            <p className="mt-4 text-sm text-gray-400">
-              contact@Weconetdata.com
+            <p className=" flex items-center gap-3 mt-4 text-sm text-gray-400">
+              <FaEnvelope /> contact@Weconetdata.com
+            </p>
+            <p className="flex items-center gap-3 mt-2 text-sm text-gray-400">
+              <FaPhone /> +1 (672) 763-1514
             </p>
           </div>
         </div>

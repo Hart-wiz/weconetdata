@@ -24,7 +24,8 @@ const Hero = () => {
         </i>
         <div className="flex gap-6 mt-8 justify-center">
           <a
-            href="#contact"
+            href="https://wa.me/+16727631514?text=Hello%20WeconetData%20Technologies,%20I%20would%20like%20to%20inquire%20about%20your%20services."
+            target="_blank"
             className="bg-primary hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 text-lg"
           >
             Get Started
