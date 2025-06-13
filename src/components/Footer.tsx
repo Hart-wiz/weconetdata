@@ -83,17 +83,37 @@ export default function Footer() {
             <h3 className="text-sm font-semibold text-white mb-4">
               Connect With Us
             </h3>
-            <div className="flex space-x-4">
-              <a href="#" className="hover:text-white">
+            <div className="flex space-x-3">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://wa.me/+16727631514?text=Hello%20WeconetData%20Technologies,%20I%20would%20like%20to%20inquire%20about%20your%20services."
+                className="hover:text-white"
+              >
                 <FaFacebookF />
               </a>
-              <a href="#" className="hover:text-white">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://wa.me/+16727631514?text=Hello%20WeconetData%20Technologies,%20I%20would%20like%20to%20inquire%20about%20your%20services."
+                className="hover:text-white"
+              >
                 <FaTwitter />
               </a>
-              <a href="#" className="hover:text-white">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://wa.me/+16727631514?text=Hello%20WeconetData%20Technologies,%20I%20would%20like%20to%20inquire%20about%20your%20services."
+                className="hover:text-white"
+              >
                 <FaLinkedinIn />
               </a>
-              <a href="#" className="hover:text-white">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://wa.me/+16727631514?text=Hello%20WeconetData%20Technologies,%20I%20would%20like%20to%20inquire%20about%20your%20services."
+                className="hover:text-white"
+              >
                 <FaGithub />
               </a>
               <a
